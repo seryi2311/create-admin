@@ -3,7 +3,6 @@ session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 'on');
 include '../dbconnect.php';
-
 function showPage($link, $info ='')
 {
     $query = "SELECT id, title, url FROM pages WHERE url!='404'";
@@ -20,7 +19,7 @@ function showPage($link, $info ='')
         $content .= "<tr> 
                         <td>{$elem['title']} </td> 
                         <td>{$elem['url']}</td> 
-                        <td><a href=\"\">Edit</a></td> 
+                        <td><a href=\"edit.php?edit={$elem['id']}\">Edit</a></td> 
                         <td><a href=\"?delete={$elem['id']}\">Delete</a></td> 
                     </tr>";
     }
@@ -48,6 +47,7 @@ function deletePage($link){
         header('Location: /admin/');
     }
     if(isset($_SESSION['info'])){
+
         return $_SESSION['info'];
     }else{
         return ['text'=>'You can edit page', 'status'=>'new'];

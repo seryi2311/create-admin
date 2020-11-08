@@ -7,7 +7,7 @@ $content = getForm();
 $title = 'add new page';
 
 $info = addPage($link);
-include 'layout.php'
+include 'layout.php';
 ?>
 
 

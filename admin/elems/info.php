@@ -1,4 +1,4 @@
 <?php
 if($info){
-    echo "<p class=\"{$info['status']}\">{$info['text']}";
+    echo "<p class=\"{$info['status']}\">{$info['text']}</p>";
 }
