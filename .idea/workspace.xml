@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9eccf59-08be-4163-90a6-2abf32ef739e" name="Default Changelist" comment="" />
+    <list default="true" id="c9eccf59-08be-4163-90a6-2abf32ef739e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/elems/info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dbconnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elems/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elems/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cake.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/coffe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/work-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/provider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/time.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +38,18 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jbb2zzBYulwHZi9KUeG3yOh5Jb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,7 +57,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -30,9 +70,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/folder" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -46,7 +88,20 @@
       <option name="presentableId" value="Default" />
       <updated>1604075536005</updated>
       <workItem from="1604075537553" duration="8563000" />
-      <workItem from="1604209674986" duration="344000" />
+      <workItem from="1604209674986" duration="1258000" />
+      <workItem from="1604211731805" duration="6461000" />
+      <workItem from="1604242268221" duration="5905000" />
+      <workItem from="1604261686561" duration="1947000" />
+      <workItem from="1604328475869" duration="3544000" />
+      <workItem from="1604390650521" duration="8564000" />
+      <workItem from="1604497594030" duration="5886000" />
+      <workItem from="1604581830389" duration="9199000" />
+      <workItem from="1604644698458" duration="1925000" />
+      <workItem from="1604661724390" duration="16013000" />
+      <workItem from="1604730146872" duration="2575000" />
+      <workItem from="1604739312503" duration="2795000" />
+      <workItem from="1604749702039" duration="2619000" />
+      <workItem from="1604821764019" duration="9578000" />
     </task>
     <servers />
   </component>
@@ -58,9 +113,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="144" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1604082333021" />
-    <state x="782" y="446" key="NewPhpFileDialog" timestamp="1604075949087">
+    <state x="698" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604210055132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="782" y="446" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604075949087" />
+    <state x="698" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604210055132" />
+    <state x="782" y="446" width="355" height="148" key="NewPhpFileDialog" timestamp="1604828484629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="782" y="446" width="355" height="148" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604828484629" />
+    <state x="624" y="237" key="run.anything.popup" timestamp="1604740786727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604740786727" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604665081679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604665081679" />
+    <state x="690" y="434" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604662164452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="434" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604662164452" />
   </component>
 </project>
